@@ -2,21 +2,14 @@ Resources for the Workshop
 
 Presentation: https://sway.office.com/HVrL2AXUlWGNDHqy
 
-Burp Suite:
-$ sudo apt-get install burpsuite -y
-
 Postman:
 sudo wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz && sudo tar -xvzf postman-linux-x64.tar.gz -C /opt && sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
+Burp Suite:
+$ sudo apt-get install burpsuite -y
+
 MITMProxy2Swagger
 sudo pip3 install mitmproxy2swagger
-
-Git:
-$ sudo apt-get install git
-
-JWT_Tool:
-git clone https://github.com/ticarpi/jwt_tool && cd jwt_tool && python3 -m pip install termcolor cprint pycryptodomex requests
-sudo chmod +x jwt_tool.py && sudo ln -s /opt/jwt_tool/jwt_tool.py /usr/bin/jwt_tool
 
 crAPI:
 https://github.com/OWASP/crAPI
